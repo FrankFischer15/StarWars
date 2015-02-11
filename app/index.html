@@ -1,211 +1,46 @@
 <!doctype html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <title>StarWars</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href="/favicon.ico">
+<html>
+
+<head>
+    <title>StarWars Match Game</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="styles/setup.css">
+</head>
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-
-  </head>
-  <body>
-    <div class="container">
-      <div class="row scoreBoard">
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-          <div class="card">
-          CARD
+<body>
+    <div class="container-fluid">
+        <div class="gameTitle">
         </div>
+        <div class="row gameContent">
+            <div class="col-xs-9">
+                <div class="cardSpace">
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="row scoring">
+                    <div class="col-xs-6">
+                    </div>
+                    <div class="col-xs-6">
+                    </div>
+                </div>
+                <div class="row stats">
+                    <div class="col-xs-6 choiceOne">
+                    </div>
+                    <div class="col-xs-6 choiceTwo">
+                    </div>
+                </div>
+                <div class="row stats">
+                    <div class="col-xs-6 choiceTwo">
+                    </div>
+                    <div class="col-xs-6 choiceTwo">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-        <div class="col-md-2">
-          <div class="card">
-          CARD
-        </div>
-        </div>
-      </div>
     </div>
-
-
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- endbower -->
-    <!-- endbuild -->
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/body.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 </body>
-</html>
