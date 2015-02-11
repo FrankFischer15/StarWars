@@ -1,0 +1,51 @@
+body {
+	background: black;
+}
+.container-fluid {
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+.col-xs-9 {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 75%;
+}
+.col-xs-3 {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 25%;
+}
+.col-xs-6 {
+	padding: 0;
+	margin: 1%;
+	background: green;
+	height: 98%;
+	width: 48%
+}
+.gameTitle {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height: 10%;
+	width: 100%;
+}
+.gameContent {
+	padding: 0;
+	margin: 0;
+	height: 90%;
+}
+.scoring {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 16%;
+}
+.stats {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 42%;
+}
