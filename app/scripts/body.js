@@ -1,11 +1,11 @@
 
 
-document.write('<div align="center"><table cellpadding="0" cellspacing="0" border="0">');
-for (var a = 0; a <= 5; a++) {
-    document.write('<tr>');
-    for (var b = 0; b <= 4; b++) {
-        document.write('<td align="center" class="blk" id="t' + ((5 * a) + b) + '"></td>');
+
+for (var a = 0; a <= 4; a++) {
+    document.write('<div class="row">');
+    for (var b = 0; b <= 5; b++) {
+        document.write('<div class="col-xs-2 shit" id="t' + ((6 * a) + b) + '"></div>');
     }
-    document.write('<\/tr>');
+    document.write('<\/div>');
 }
-document.write('<\/table><form name="mem"><input type="button" id="cnt" value="0:00" onclick="window.start()" \/><\/form><\/div>');
+document.write('<\/div>');
