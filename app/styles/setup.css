@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: black;
+    background: url('../images/backgrounds/movie-star-wars-29186.jpg') center no-repeat;
 }
 .container-fluid {
     height: 100%;
