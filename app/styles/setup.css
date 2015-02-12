@@ -1,59 +1,57 @@
+
+
 body {
-	background: black;
-}
-.container-fluid {
-	padding: 0;
 	width: 100vw;
 	height: 100vh;
 }
-.col-xs-9 {
-	padding: 0;
-	margin: 0;
+.container-fluid {
+	border: 2px solid red;
 	height: 100%;
-	width: 75%;
-}
-.col-xs-3 {
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	width: 25%;
-}
-.col-xs-6 {
-	padding: 0;
-	margin: 1%;
-	background: green;
-	height: 98%;
-	width: 48%
 }
 .gameTitle {
-	padding: 0;
-	margin: 0;
-	text-align: center;
 	height: 10%;
-	width: 100%;
+	text-align: center;
 }
-.gameContent {
-	padding: 0;
-	margin: 0;
+.gameArea {
+	height: 85%;
+}
+.cardSpace {
+	height: 95%;
+}
+.scoreBoard {
+	height: 95%;
+}
+.scores {
+	height: 15%;
+}
+.timer {
+	height: 95%;
+}
+.turns {
+	height: 95%;
+}
+.choiceOne, .choiceTwo {
+	height: 40%;
+}
+.row {
+	border: 2px solid green;
+}
+.col-xs-8, .col-xs-4, .col-xs-6 {
+	border: 2px solid blue;
+}
+.col-xs-6 {
 	height: 90%;
 }
-.scoring {
-	padding: 0;
-	margin: 0;
+/*img {
 	width: 100%;
-	height: 16%;
+	height: 100%;
 }
-.stats {
-	padding: 0;
-	margin: 0;
+holding div {
 	width: 100%;
-	height: 42%;
+	height: 100%;
 }
-.boardstyle {
-	width: auto;
-}
-.shit {
-	width: auto;
-	padding: 0;
+.col-xs-2 {
+	width: 15%;
+	height: 18%;
+}*/
 
-}
