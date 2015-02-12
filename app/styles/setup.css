@@ -13,11 +13,17 @@ body {
 	text-align: center;
 }
 .gameArea {
+	width: 66%ß;
 	height: 85%;
 }
 .cardSpace {
 	height: 95%;
 }
+.cardSpace .row {
+
+	height: 20%;
+}
+
 .scoreBoard {
 	height: 95%;
 }
@@ -42,16 +48,16 @@ body {
 .col-xs-6 {
 	height: 90%;
 }
-/*img {
+img {
 	width: 100%;
 	height: 100%;
 }
-holding div {
+.shit {
 	width: 100%;
 	height: 100%;
 }
 .col-xs-2 {
 	width: 15%;
-	height: 18%;
-}*/
+	height: 100%;
+}
 
