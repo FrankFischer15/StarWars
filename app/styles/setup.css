@@ -1,63 +1,73 @@
-
-
 body {
-	width: 100vw;
-	height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/backgrounds/movie-star-wars-29186.jpg') center no-repeat;
 }
 .container-fluid {
-	border: 2px solid red;
-	height: 100%;
+    height: 100%;
 }
 .gameTitle {
-	height: 10%;
-	text-align: center;
+    height: 20%;
 }
-.gameArea {
-	width: 66%ß;
-	height: 85%;
+.gameTitle .col-xs-3 {
+    height: 100%;
+    width: 25%;
+    text-align: center;
 }
-.cardSpace {
-	height: 95%;
+.gameTitle .col-xs-2 {
+    height: 100%;
+    width: 16%;
+    text-align: center;
 }
-.cardSpace .row {
-
-	height: 20%;
+.gameTitle .col-xs-2 button {
+    background: gray;
+    color: white;
+    border-radius: 25%;
+    width: 50%;
+    height: 33%;
 }
-
-.scoreBoard {
-	height: 95%;
+.gameTitle .col-xs-1 {
+    height: 100%;
+    width: 8%;
+    text-align: center;
 }
-.scores {
-	height: 15%;
+.gameTitle .col-xs-1 div {
+    width: 96%;
+    height: 29%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin: 2%;
+    color: white;
 }
-.timer {
-	height: 95%;
-}
-.turns {
-	height: 95%;
+.gameTitle .col-xs-3 img {
+    height: 100%;
+    width: 100%;
 }
 .choiceOne, .choiceTwo {
-	height: 40%;
+    color: white;
 }
-.row {
-	border: 2px solid green;
+.gameArea {
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
 }
-.col-xs-8, .col-xs-4, .col-xs-6 {
-	border: 2px solid blue;
+.cardSpace {
+    height: 100%;
+    width: 100%;
 }
-.col-xs-6 {
-	height: 90%;
+.cardSpace .row {
+    height: 20%;
 }
-img {
-	width: 100%;
-	height: 100%;
+.cardSpace .row .col-xs-2 {
+    width: 16%;
+    height: 100%;
 }
-.shit {
-	width: 100%;
-	height: 100%;
+.cardSpace .row .col-xs-2 .shit {
+    width: 100%;
+    height: 100%;
 }
-.col-xs-2 {
-	width: 15%;
-	height: 100%;
+.cardSpace .row .col-xs-2 img {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
 }
-
